@@ -1,0 +1,34 @@
+#Local Terraform Directories
+**/.terraform/*
+
+# TF State Files
+*.tfstate
+*.tfstate.*
+
+#Crash log Files
+*.log
+
+#Sensitive data
+*.tfvars
+
+# Ignore Terraform state files
+terraform.tfstate 
+terraform.tfstate.backup 
+
+# Optional: Ignore Terraform plan output files 
+*.tfplan
+
+# Ignore Terraform lock files
+.terraform.lock.hcl
+
+# Ignore Terragrunt cache
+*/.terragrunt-cache/
+
+# Ignore executable files
+**/*.exe
+
+# Ignore local environment files
+**/*.env
+
+# Ignore .pem files in sub folders ssh
+**/*.pem
